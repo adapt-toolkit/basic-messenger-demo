@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL description="ADAPT hello world project example" maintainer="vitalii@adaptframework.solutions"
+LABEL description="ADAPT basic messenger demo" maintainer="vitalii@adaptframework.solutions"
 
 USER root
 WORKDIR /
