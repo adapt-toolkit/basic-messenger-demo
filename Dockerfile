@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL description="ADAPT hello world project example" maintainer="vitalii@adaptframework.solutions"
+LABEL description="ADAPT basic messenger demo" maintainer="vitalii@adaptframework.solutions"
 
 USER root
 WORKDIR /
@@ -18,7 +18,7 @@ curl -fsSL https://deb.nodesource.com/setup_current.x |bash - && \
 apt-get install -y nodejs 
 
 # Copy ADAPT Docker toolkit to our Docker image
-COPY --from=adaptframework/devkit:release-0.2 /mufl /mufl
+COPY --from=adaptframework/devkit:release-0.1 /mufl /mufl
 
 # Build ADAPT TypeScript modules
 RUN cd /mufl && sh build-nodejs-modules.sh

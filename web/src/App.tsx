@@ -60,7 +60,7 @@ const App: React.FC = () => {
         const seed_phrase = urlParams.get('seed');
     
         // Define the arguments needed for the adapt_wrapper_browser start function.
-        const args = `--broker_address ws://127.0.0.1:9001 --logger_config --level ERROR --logger_config_end --packet --unit_hash D2D90776F0EFFE09E7EFE580F6D53D36CB23523083EED5341D5196FCB3069FA6 --unit_dir_path /static/mufl/ --seed_phrase ${seed_phrase}`;
+        const args = `--broker_address ws://127.0.0.1:9001 --logger_config --level ERROR --logger_config_end --packet --unit_hash FEDA4473C37A0F4B6AE4DA01313A4AAD5AF37C3409E8DCB6E02744C16E271BCC --unit_dir_path /static/mufl/ --seed_phrase ${seed_phrase}`;
     
         // Start the ADAPT wrapper in the browser.
         adapt_wrapper_browser.start(args.split(" ")).then(adapt_wrapper => {
