@@ -27,7 +27,7 @@ open http://localhost:8080/?seed=your_seed_phrase
 
 ## Detailed Guide
 
-For a comprehensive breakdown on the construction of this project, refer to the [Messenger Tutorial - Basics](https://docs.adaptframework.solutions/release/0.1/messenger-tutorial-1.html).
+For a comprehensive breakdown on the construction of this project, refer to the [Messenger Tutorial - Basics](https://docs.adaptframework.solutions/release/0.1/detailed-build-example.html).
 
 ## Resources
 
